@@ -92,7 +92,7 @@ const pizzas = [
   { name: 'sundried tomatoes', isVegetarian: true },
 ];
 
-const somethingICanEat = words.find(function (pizza) {
+const somethingICanEat = pizzas.find(function (pizza) {
   return pizza.isVegetarian;
 });
 ```

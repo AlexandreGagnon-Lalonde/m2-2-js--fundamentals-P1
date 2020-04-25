@@ -67,5 +67,5 @@ Let's dip into the internet and see if we can learn all of these methods collect
 
 - Split into teams.
 - Take given methods
-  - find an explanation/definition, then write your own.
-  - create two examples of each method in use. Be creative. 😛
+- find an explanation/definition, then write your own.
+- create two examples of each method in use. Be creative. 😛

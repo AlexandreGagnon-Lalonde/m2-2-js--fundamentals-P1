@@ -20,6 +20,9 @@ The idea comes from math.
 let rectangle = { length: 10, width: 4 };
 
 // Write a function that can solve it for ANY rectangle.
+function rectangleArea(rect) {
+  return rect.length * rect.width
+}
 ```
 
 ---
@@ -28,6 +31,9 @@ let rectangle = { length: 10, width: 4 };
 
 ```js
 // Formula for area of circle: Pi times the radius squared
+function circleArea(radius) {
+  return Math.PI * Math.pow(radius, 2)
+}
 ```
 
 ---
@@ -46,10 +52,19 @@ let rectangle = { length: 10, width: 4 };
 
 ```js
 // Q1. Write a function that returns the sum of 3 numbers.
+function sumOfThreeNumbers(a, b, c) {
+  return a + b + c
+}
 
 // Q2. Write a function that returns the square of a number minus twice the number.
+function randomOperation(numberToProcess) {
+  return Math.pow(numberToProcess, 2) - 2 * numberToProcess
+}
 
 // Q3. Write a function that returns the a person's full name, given their first and last names.
+function fullName(firstName, lastName) {
+  return `${firstName} ${lastName}`
+}
 ```
 
 ---
@@ -58,10 +73,26 @@ let rectangle = { length: 10, width: 4 };
 
 ```js
 // Q4. Write a function that returns the value of the tax for a given amount.
+function receiptTax(value) {
+  return value * 0.15
+}
+function receiptTax2(value) {
+  let taxRate = 0.15;
+  return value * taxRate
+}
+function receiptTax3(value, taxRate = 0.15) {
+  return value * taxRate
+}
 
 // Q5. Write a function that returns the value 42.
+function universeAnswer() {
+  return 42
+}
 
 // Q6. Write a function that returns "Hello!".
+function greetingGenerator() {
+  return 'Hello!'
+}
 ```
 
 ---
