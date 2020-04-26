@@ -13,9 +13,26 @@
 // integers, and returned the largest one?
 
 // All of the following calls should be valid:
-maxValue(4, 2); // 4
-maxValue(4, 2, 8, 1, 5, 10); // 10
-maxValue(4, 2, 8, 1, 5, 10, 1, 64, 2, 8, -100, 54); // 64
+maxValueA(4, 2); // 4
+maxValueB(4, 2, 8, 1, 5, 10); // 10
+maxValueB(4, 2, 8, 1, 5, 10, 1, 64, 2, 8, -100, 54); // 64
 
 // HINT: You'll want to use "rest parameters".
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+
+function maxValueA(num1, num2) {
+  // compare two numbers using MATH.MAX()
+  console.log(Math.max(num1, num2));
+}
+
+function maxValueB(...Args) {
+  // initialize the value
+  let value = 0;
+  // place the highest value in item
+  Args.forEach(function(item) {
+    if (item > value) {
+      value = item;
+    }
+  })
+  console.log(value);
+}
