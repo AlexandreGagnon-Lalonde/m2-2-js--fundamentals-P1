@@ -16,7 +16,4 @@ function keepLong(array) {
   return newArray
 }
 
-console.log(
-  'Q5 keepLong()',
-  keepLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash'])
-);
+console.log(keepLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash']));

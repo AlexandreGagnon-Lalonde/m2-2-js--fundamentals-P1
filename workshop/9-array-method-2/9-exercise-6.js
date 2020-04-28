@@ -17,7 +17,4 @@ function greet(names) {
   return newNames
 }
 
-console.log(
-  'Q6 greet()', 
-  greet(['David', 'Billy', 'Lisa', 'Jennifer'])
-);
+console.log(greet(['David', 'Billy', 'Lisa', 'Jennifer']));

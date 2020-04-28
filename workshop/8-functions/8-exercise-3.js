@@ -1,5 +1,4 @@
-// Q3
-// Write a function that accepts 5 grades (numerical values) and returns the average.
+// Q3 - Write a function that accepts 5 grades (numerical values) and returns the average.
 // The returned average should also be rounded to the nearest unit. (no decimals, please!)
 
 // function for exactly 5 numbers

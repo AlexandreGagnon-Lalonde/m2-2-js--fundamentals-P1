@@ -30,7 +30,4 @@ function greetLong(array) {
   return newArray
 }
 
-console.log(
-  'Q7 greetLong()', 
-  greetLong(['Scott', 'Bob', 'Ric', 'Jim'])
-);
+console.log(greetLong(['Scott', 'Bob', 'Ric', 'Jim']));

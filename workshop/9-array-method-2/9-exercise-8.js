@@ -20,14 +20,5 @@ function allLong(array) {
   return statement
 }
 
-console.log(
-  'Q8 allLong() - case 1', 
-  allLong(['Scott', 'Bob', 'Ric', 'Jim'])
-);
-// Should be false
-
-console.log(
-  'Q8 allLong() - case 2',
-  allLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash'])
-);
-// Should be true
+console.log(allLong(['Scott', 'Bob', 'Ric', 'Jim']));
+console.log(allLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash']));

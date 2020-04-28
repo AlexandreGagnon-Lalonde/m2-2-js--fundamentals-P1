@@ -66,12 +66,5 @@ function calculateGrades(grades) {
   return newGrades
 }
 
-console.log(
-  'Q10 calculateGrades()',
-  calculateGrades([48, 95, 65, 48, 59, 78, 72, 65])
-);
-
-console.log(
-  'Q10 calculateAverage()',
-  calculateAverage([48, 95, 65, 48, 59, 78, 72, 65])
-);
+console.log(calculateGrades([48, 95, 65, 48, 59, 78, 72, 65]));
+console.log(calculateAverage([48, 95, 65, 48, 59, 78, 72, 65]));

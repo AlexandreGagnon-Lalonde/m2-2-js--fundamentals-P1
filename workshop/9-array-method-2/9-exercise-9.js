@@ -25,7 +25,4 @@ function calculateAverage(grades) {
   return Math.round(average)
 }
 
-console.log(
-  'Q9 calculateAverage()',
-  calculateAverage([76, 60, 83, 100, 78])
-);
+console.log(calculateAverage([76, 60, 83, 100, 78]));
