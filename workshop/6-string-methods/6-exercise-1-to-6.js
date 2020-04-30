@@ -38,8 +38,8 @@ console.log(`Q1 - Morty has ${numberOfNames} names. \n`);
 
 // Q2 - Convert the alternateRicks string to an array, so that each name ("Simple Rick") is an element in that array. Log that array to the console.
 
-// SPLIT all the names that are seperated by the string ', ', returns an array with all the names
-const seperatedRicks = alternateRicks.split(', ');
+// SPLIT all the names that are seperated by the string ',' returns an array with all the names
+const seperatedRicks = alternateRicks.split(',');
 console.log(`Q2 - Rick's names : ${seperatedRicks}\n`);
 
 

@@ -29,5 +29,5 @@ function isEven(num) {
   return num % 2 === 0;
 }
 
-console.log('Q9: ', every([2, 42, 540, 8, 64], isEven));
-console.log('Q9: ', every([2, 42, 540, 3, 64], isEven));
+console.log(every([2, 42, 540, 8, 64], isEven));
+console.log(every([2, 42, 540, 3, 64], isEven));
