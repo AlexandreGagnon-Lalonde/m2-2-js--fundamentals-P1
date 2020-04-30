@@ -35,5 +35,3 @@ const myArray = [
 
 console.log(itemIsPresent(myArray, 'funky')); // true
 console.log(itemIsPresent(myArray, 'elephant')); // false
-console.log(itemIsPresentQ(myArray, 'funky')); // true
-console.log(itemIsPresentQ(myArray, 'elephant')); // false
