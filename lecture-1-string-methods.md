@@ -104,8 +104,7 @@ This method returns -1 if the value to search for never occurs.
 
 ```js
 // Example
-let yodaSpeak =
-  'Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.';
+let yodaSpeak = 'Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.';
 ```
 
 _Why would JavaScript decide to return `-1` instead of some other value? like `0`?_
